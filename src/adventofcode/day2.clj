@@ -10,7 +10,7 @@
 ;;How many passwords are valid according to their policies?
 
 (defn des-line [line]
-  "destructure the parsed lines into a map bu using a regular expression"
+  "destructure the parsed lines into a map by using a regular expression"
   (let [[ _            min    max   ch   password]
         (re-matches #"(\d+)-(\d+) (\w): (\w+)" line)]
     {:min (Integer/parseInt min)
