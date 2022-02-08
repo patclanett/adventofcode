@@ -1,4 +1,4 @@
-# adventofcode
+# adventofcode 2020
 
 Following the 2020 Advent of Code challenge with Clojure!
 
